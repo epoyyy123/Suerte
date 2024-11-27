@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All Products - iTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="rating">
+             <img src="images/Jstore.jpg" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="ecommerce.html">HOME</a><li>
+                    <li><a href="product-deatails.html">PRODUCTS</a>
+                    <li><a href="">ABOUT</a><li>
+                    <li><a href="contact.html">CONTACT</a>
+                    <li><a href="account.html">ACCOUNT</a><li>  
+                </ul>
+            </nav>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>   
+
+    <!-----------cart items details----------->
+    <div class="small_container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/iphone-13-pro-106125.webp" >
+                        <div>
+                            <p>Iphone 15 Pro Max</p>
+                            <small>Price:1250.00</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$1250.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/iPhone_15_Pro_Natural_Titanium_PDP_Image_Position-1__COES_d9ffb71c-79ba-46d0-9da5-a4f797be592d.webp">
+                        <div>
+                            <p>Iphone 16 Pro Max</p>
+                            <small>Price:1430.00</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$1430.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/0195949823220_0.webp" >
+                        <div>
+                            <p>Iphone 16</p>
+                            <small>Price:1050.00</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$1050.00</td>
+            </tr> 
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$3,730.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$100.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$3,630.00</td>
+                </tr>
+            </table>
+
+        </div>
+ 
+
+
+    </div>
+
+
+
+
+ <!---------------------footer------------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for android and ios mobile phone</p>
+            </div>
+             <div class="footer-col-2">
+                <img src="">
+                <p>Every once in a while, a revolutionary product comes along that changes everything. <br> Apple’s iPhone is one such product.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div> 
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Youtube</li>    
+                    <li>Twitter</li>
+                    <li>Isntagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var Productimg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+    SmallImg[0].onclick = function(){
+        ProductImg.src = SmallImg[0].src;
+    }   
+    SmallImg[1].onclick = function(){
+        ProductImg.src = SmallImg[1].src;
+    }     
+    SmallImg[2].onclick = function(){
+        ProductImg.src = SmallImg[2].src;
+    }    
+</script>
+</body>
+</html>
